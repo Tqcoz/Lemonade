@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Lemonade.exe" version="1.0.0.0" publicKeyToken="7875c3c389a2c01d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="lemon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Lemonade" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Lemonade.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.Core.dll" size="1675264">
+      <assemblyIdentity name="Bunifu.Core" version="1.5.5.2" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WCxRArjHqRpfZ1wqRHkeWO4pFvLzXznYEh/Rb6cvyFM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuButton.dll" size="246272">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuButton" version="1.5.5.2" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>S1MVgB814UMGUol8z4hz9FG8rDnKu0Q2fzMA0Xjl6wA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuLabel.dll" size="683008">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuLabel" version="1.5.5.2" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mqEMhl2g7MJxV02hfNa6UY4itBy3rsZiOIUL3TnpcYU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="642560">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ed0jnqG3j+UurTQe9+hU5mmYwHFItaT4u3+J/HomPDY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lemonade.exe" size="770080">
+      <assemblyIdentity name="Lemonade" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KvhclOdkf6HvC02xLsjHZjxnBFA7g09k4M+7ECuHfVQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="lemon.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PvZbkhWTrUlLjh7x0Wx/vl6jKuo44oyhUuB1r7sTFbA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lemonade.exe.config" size="1029">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Fx+EZzVkb15QbXocCgGdOuy3W69xbBUn6WOg8nyrz40=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CPSUFB8\Eclectictree209" issuerKeyHash="343ae3b9588735abb35dd360eab4a42384d90e9e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Cul/isjMmfdeprFsqR9NPiMCYMUhJg5PeKKfUwHa91M=</DigestValue></Reference></SignedInfo><SignatureValue>orBC4R5u5QdQVA13bDRAJCNCbHQsR0ko7WNUnaWK2mz8kDJSa1AP26rakbKJMgDWcV23r04vOFwrpaRei9CkTofUrtCgSxPv3FzZ3CI/VqKLUhgit/B6cHlS0/U4NQkJnxGO0SL8+6SxnlVkaPPbnUvCD348ybZ1RcIkNLpBPHs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u3e5ci108Eodk91b0puECRx4dQFod0XxREzKzTItLX6sIJGNSy/sLMQ1s+Sc4iX/VPggSxJ2Jw7EQXqaErIJapKcjJsnAnRZyHV/Z+6/FerVxCxptmibaByXwPOG53+ltzB3D+tQCQNuo2MbrqJRzWxMvLi5Q4pNnjEUANYk1/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="53f7da01539fa2784f0e2621c56002233e4d1fa96cb1a65ef799ccc88a7fe90a" Description="" Url=""><as:assemblyIdentity name="Lemonade.exe" version="1.0.0.0" publicKeyToken="7875c3c389a2c01d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CPSUFB8\Eclectictree209</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h0jmoUJAYF0SvqQvGQPgLN97n6+JUEQYoLEpFbp2JnE=</DigestValue></Reference></SignedInfo><SignatureValue>DBtlWFFgkOLV4kkQvO1TAVGhICX55FC/Z6ogCEPHtAfMPqjkNEEpyXmm8nDcz3SAmEUTm1YVE1ymJACU6vTSR9guwtjddV2LxJKm8xi6mNPuQaXHGm6ipwb8QzeLJuPP+v8/Vj2BN27tAOuZDyYdOQ75BbtRvZUKZdQD7jMEuxI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u3e5ci108Eodk91b0puECRx4dQFod0XxREzKzTItLX6sIJGNSy/sLMQ1s+Sc4iX/VPggSxJ2Jw7EQXqaErIJapKcjJsnAnRZyHV/Z+6/FerVxCxptmibaByXwPOG53+ltzB3D+tQCQNuo2MbrqJRzWxMvLi5Q4pNnjEUANYk1/0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICFTCCAX6gAwIBAgIQXXVHeE3tV4tJ2VoIRpYarDANBgkqhkiG9w0BAQsFADBJMUcwRQYDVQQDHj4ARABFAFMASwBUAE8AUAAtAEMAUABTAFUARgBCADgAXABFAGMAbABlAGMAdABpAGMAdAByAGUAZQAyADAAOTAeFw0xODA2MjEwMDM1MTFaFw0xOTA2MjEwNjM1MTFaMEkxRzBFBgNVBAMePgBEAEUAUwBLAFQATwBQAC0AQwBQAFMAVQBGAEIAOABcAEUAYwBsAGUAYwB0AGkAYwB0AHIAZQBlADIAMAA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7d7lyLXTwSh2T3VvSm4QJHHh1AWh3RfFETMrNMi0tfqwgkY1LL+wsxDWz5JziJf9U+CBLEnYnDsRBepoSsglqkpyMmycCdFnIdX9n7r8V6tXELGm2aJtoHJfA84bnf6W3MHcP61AJA26jYxuuolHNbEy8uLlDik2eMRQA1iTX/QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAE2XxphQFRjBLkA74jV+dvqslzxG72fwtyZnCYOHXgmIsd72TP9M4w4X57Zy/aCIuY0KuQSiWpkVJ+wGp7c6+8Wc4w7YqPm8iWsA13Ud1mquw5UVLg4QLV7CzeKF8Gz0buLYieO8mNX7LRkoet0sMJGdLMksMsgHCv0o7PDT7bhS</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
